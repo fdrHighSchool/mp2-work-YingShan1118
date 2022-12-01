@@ -7,7 +7,9 @@
 000111222333444555666777888999
 000111222333444555666777888999
 ```
-  * **YOUR WRITING HERE**
+  * public static String repeatNumbers (int num, int times, int row){
+  
+  }//End of repeatNumbers method
 
 
 2. Write a plan for the following output:
