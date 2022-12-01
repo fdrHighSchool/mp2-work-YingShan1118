@@ -3,16 +3,16 @@
 
 1. *In your own words*, discuss what each String method does:
   * `.substring(a)`
-    * **YOUR WRITING HERE**
+    * Returns the String from index a to the end of the String 
 
   * `.substring(a, b)`
-    * **YOUR WRITING HERE**
+    * Returns the String from index a to index b (not including index b)
 
   * `.indexOf(str)`
-    * **YOUR WRITING HERE**
+    * Return the index of str in a String
 
   * `.equals(str)`
-    * **YOUR WRITING HERE**
+    * Return true or false based on if the String is the same as str
 
 
 2. *In your own words*, discuss what the following `for` loop accomplishes for `String s`:
@@ -21,4 +21,4 @@ for(int i = 0; i < s.length(); i++) {
       // DO STUFF
 }
 ```
-  * **YOUR WRITING HERE**
+  * The length of String s is 
