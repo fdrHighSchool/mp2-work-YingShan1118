@@ -7,7 +7,7 @@
 000111222333444555666777888999
 000111222333444555666777888999
 ```
-  * public static void repeatNumbers (int num, int times, int row){
+  * public static void repeatNumbers (int num, int times, int row){\n
      for (int r = 0; r < row; r++){
         for (int n = 0; n <= num; n++){
            for (int t = 0; t < times; t++){
