@@ -5,6 +5,7 @@ class Main {
     System.out.println(letterGrade(77)); //Should return C+
     System.out.println(letterGrade(85)); //Should return B
     System.out.println(letterGrade(99)); //Should return A+
+    System.out.println(letterGrade(100)); //Should return A+
   }//End of main method
   public static String letterGrade(int grade){
     String letter = "";
@@ -24,10 +25,10 @@ class Main {
     else{
       letter = "A";
     }//End of else statement
-    if (onesDigit > 6){
+    if (onesDigit > 6 || grade <= 100){
       letter += "+";
     }//End of 2nd if statement
-    else if (onesDigit < 3){
+    else if (onesDigit < 3 && grade > 100){
       letter += "-";
     }//End of 4th else if statement
     return letter;
