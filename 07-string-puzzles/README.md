@@ -21,4 +21,4 @@ for(int i = 0; i < s.length(); i++) {
       // DO STUFF
 }
 ```
-  * The length of String s is 
+  * The length of String s is the number that i have to less than for the for loop to run 
