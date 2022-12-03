@@ -9,7 +9,7 @@
 
 
 2. Discuss how you would make sure 100 is not misrepresented as an A-.
-  * If the last dight is greater than 6 or the grade is greater than or equal to 100, add "+" on the letter grade. Else if the last dight if less than 3 and grade is 
+  * If the last dight is greater than 6 or the grade is greater than or equal to 100, add "+" on the letter grade. 
 
 3. Discuss how you would make sure grades that are an F are not mislabeled as F- or F+ (eg: 49 -> F+ and 52 -> F-)
-  * **YOUR WRITING HERE**
+  * For the if and else if statements, add that the grade also have to be greater than or equal to 60.
