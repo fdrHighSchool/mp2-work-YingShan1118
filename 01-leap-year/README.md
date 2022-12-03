@@ -45,4 +45,9 @@
   }
   ```
 
-  * Change String name = console.next(); to String name = console.nextLine();
+  *   Scanner console = new Scanner(System.in);
+  System.out.print("What is your favorite color? ");
+  String name = console.nextLine();
+  if (name.equals("blue")) {
+      System.out.println("Mine, too!");
+  }
